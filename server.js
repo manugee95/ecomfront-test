@@ -12,7 +12,7 @@ connectDB()
 const app = express()
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://tronixapp.netlify.app/",
     allowedHeaders: ["Content-Type", "Authorization", "auth-token"],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true
